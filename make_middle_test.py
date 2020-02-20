@@ -7,10 +7,10 @@ def test make_middle():
 
 def test plus_two():
     assert plus_two([1, 2], [6, 8]) == [1 ,2, 6, 8]
-    assert plus_two([8435, 9876], ,[34, 654]) == [8435, 9876]
+    assert plus_two([8435, 9876], ,[34, 654]) == [8435, 9876 34, 654]
     assert plus_two9([1, 1], [1, 1]) == [1, 1, 1, 1]
 
 def test_swap_end():
-    assert swap_end([4, 3, 3, 3, 3, 3, 3, 3, 3]) == [3, 3, 3, 3, 3, 3,3 ,3]
+    assert swap_end([4, 3, 3, 3, 3, 3, 3, 3, 3]) == [3, 3, 3, 3, 3, 3,3 ,3, 4]
     assert swap_end
     assert swap_end
